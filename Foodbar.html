@@ -1,0 +1,161 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>
+      FoodBar
+    </title>
+    <link
+    rel="Shortcut Icon"
+    type="image/png"
+    href="photos/foodbarnlogo.jpg"
+  >
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      body{
+        background-color: rgba(37, 37, 37, 0.856);
+        margin: 0px;
+      }
+      .head img{
+        margin: 0px;
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+        margin-bottom: 125px;
+        opacity: 0.8;
+      }
+      .home{
+        display: flex;
+        margin: 15px;
+        font-size: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
+        background-image: url(https://media.giphy.com/media/rbMDQym45okqt3ZQg0/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+      }
+      .div2{
+        display: flex;
+        justify-content: right;
+        margin-bottom: 150px;
+      }
+      .div{
+        display: flex;
+        margin-bottom: 150px;
+      }
+      .div2 span,
+      .div span{
+        font-size: 20px;
+        font-family: Arial;
+        align-self: center;
+      }
+      .div img{
+        margin-left: 100px;
+        margin-right: 20px;
+        height: 270px;
+        border-radius: 5px;
+      }
+      .div2 img{
+        margin-left: 20px;
+        height: 270px;
+        border-radius: 5px; 
+        margin-right: 100px;
+      }
+      .bottom-portion{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.699);
+        height: 300px ;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+      }
+      .containment{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+      }
+      .containment span{
+        display: flex;
+        justify-content: top;
+        height: 216px;
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+      }
+      .logo{
+        height: 200px;
+        margin: 0px 20px 0px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <img src="photos/Picsart_22-10-23_10-09-32-729.png">
+    </div>
+
+    <main>
+    <div class="home"> HOME</div>
+      <div class="div" data-aos="fade-right">
+        <img src="photos/the people.jpg">
+        <span>
+          Food bar is a home for a lot of people <br>
+          and we serve top quality food that you <br>
+          cant see anywhere else. We welcome our <br>
+          customers with utmost respect and with <br>
+          quality service that will surely meet <br>
+          your expectations
+        </span>
+      </div>
+
+      <div class="div2" data-aos="fade-left">
+        <span>
+          The food we serve are exquisite,<br>
+          different taste that will surely<br>
+          activate your taste buds.Filipino<br>
+          cuisine that will always taste like<br>
+          home
+        </span>
+        <img src="photos/sizzling tofu.jpg">
+      </div>
+
+      <div class="div" data-aos="fade-right">
+        <img src="photos/IMG_20221031_124446~2.jpg">
+        <span>
+          Come eat,drink,sing and laught with us.<br>
+          your own trusted restaurant near you<br>
+          with affordable prices to die for<br>
+          and food that will surely suffice your hunger <br>
+          so dont wait and order now come with us
+          at Foodbar Lipa <br>
+        </span>
+      </div>
+
+      <div class="bottom-portion">
+        <div class="containment">
+          <span>
+            <img class="logo"src="photos/foodbarnlogo.jpg">
+            Located at:<br>
+            Purok 6 Malagonlong Lipa City
+            Contact number:<br>
+            043-773-3943<br>
+            0991-841-2892
+          </span>
+          <span style="padding-left:100px">
+             Our socials:<br>
+              Facebook:<a style="padding-top: 35px;" href="https://www.facebook.com/profile.php?id=100086198988009" target="_blank">Foodbar</a>
+          </span>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
